@@ -1,0 +1,46 @@
+.nav-wrapper {
+    width: 50%;
+    margin: 2rem auto;
+    height: 4rem;
+    display: flex;
+    border-radius: 2rem;
+    opacity: 0.75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: beige;
+}
+
+.nav-group {
+    margin-left: 2rem;
+    width: 50%;
+}
+
+.nav-group ul,
+.nav-group ul li,
+.nav-group ul li a {
+    all: unset;
+}
+
+.nav-group ul {
+    width: 80%;
+    margin: 0rem auto;
+}
+
+.nav-group ul li {
+    font-size: 1.25rem;
+    padding: 0.75rem 1rem;
+    border-radius: 1rem;
+}
+
+.nav-group ul li:hover {
+    background: blue;
+    transition: all 500ms ease-in-out;
+}
+
+.nav-group ul,
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
